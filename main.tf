@@ -6,7 +6,7 @@ locals {
 
 
 resource "aws_key_pair" "ec2" {
-    for_each = var.public_keys
-    key_name = "${local.name-prefix}-${each.key}"
-    public_key = each.value
+  for_each   = var.public_keys
+  key_name   = "${local.name-prefix}-${each.key}"
+  public_key = each.value
 }
