@@ -19,7 +19,7 @@ module "ec2_key_pair" {
   proj   = "proj-x"
   env    = "dev"
 
-  key-pairs = {
-    bastion-ssh-key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0DDDORJMxidUHHDlzbJOPDPAPe9KPScv3Lyi/LeJ8V3SoOmDv/ZjPzM17SyWJYm9GUa/TliEfip2GQn6L/SInK/X7za0Yb04WATtmMDv5FxB5oFE5k6AoGgkQ0eMiMI86zWQFfrmWa5n1JBpm1lwC2IqpyO2nCgIfQTzTamvG9TEQC8meY01ECZCjRljeYiSto3y98HXqj+RO/bWwsnHjwhFYNyKjSTanaGacg1/Eo/povzwo3tyP7bqlY9oYawMqzHKHc/OdE1Gcz62gMSHVrh+q6RyvBaatAYHKWrESwKarDLL0dWej2knxgc4mdhrGkojMwl/QdOw87Ll6bIzN"
+  public_keys = {
+    test-ec2-key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC36iPxZu9RxZZ5VytE5KC9kshMbZOoQ7dKGE3QafajSYxoCYQBRhHAS3/MWf1giqhH+YPLpRIm65m9tfkcKziMUC+Oe10HM50wY3TFmORqjImcRymyU2W7AlcgfIpGa7ytSO4HU1XzZUkmoD4g2BJwP+SMDUlQ8OWoZaHWJ/IosRK+/8a3epAHWxWTyBN/TsEN01/QFGoy1qToaD1qD/s+LmGRjj4pYEIhzhirZBCsXSR8plJZjMKl/y9k7LwxsoV6QavFJ5lfLKFWfgbF1Y9LVl+Ev6DowNHKimCAkIZ4Gj7zGzex8ZTquw8LT9aHYnfnGNLmtubVw9SM4axvVxbN test-ec2"
   }
 }
